@@ -1,0 +1,8 @@
+[2020-11-03T06:58:53.443Z] - error => signIn (ObjectParameterError: Parameter "filter" to find() must be an object, got kiven.acv2@gmail.com)
+[2020-11-03T07:11:45.651Z] - error => decodeToken (Error: No token supplied)
+[2020-11-03T07:16:54.107Z] - error => createCompany (ValidationError: name: Error, expected `name` to be unique. Value: `LG C.A`, rif: Error, expected `rif` to be unique. Value: `198746216`)
+[2020-11-03T07:20:48.579Z] - error => signUp (ValidationError: email: Error, expected `email` to be unique. Value: `kiven.acv2@gmail.com`)
+[2020-11-03T22:39:14.031Z] - error => createCompany (ValidationError: rif: Error, expected `rif` to be unique. Value: `198746216`, name: Error, expected `name` to be unique. Value: `LG C.A`)
+[2020-11-03T22:40:43.156Z] - error => createCompany (ValidationError: name: Error, expected `name` to be unique. Value: `LG C.A`, rif: Error, expected `rif` to be unique. Value: `198746216`)
+[2020-11-03T22:48:26.013Z] - error => deleteCompany (ReferenceError: Cannot access 'Company' before initialization)
+[2020-11-03T22:50:10.018Z] - error => signUp (ValidationError: email: Error, expected `email` to be unique. Value: `kiven.acv2@gmail.com`)

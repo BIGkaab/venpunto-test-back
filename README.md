@@ -6,6 +6,13 @@ Login y registro de usuarios, con posterior CRUD de compañias, siempre que el u
 
 Una vez registraro o logueado el usuario la API devuelve un JWT que debe ser almacenado por local storage o session storage y ser enviado en la cabezera de la peticon para tener accedo al CRUD de compañias bajo el nombre authorization
 
+###Inicar proyecto
+
+1. Descargar dependencias
+   npm install
+2. Iniciar servidor
+   npm start
+
 ###Tencologias utilizadas
 
 - Express.js
